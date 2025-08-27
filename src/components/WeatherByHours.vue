@@ -111,6 +111,7 @@ assetUrl(`icons/${status}.svg`)
 
 @media (max-width: 640px) {
   .weather-by-hours-row {
+    grid-template-columns: 14% 20% 35% 12% 12%;
     font-size: 14px;
   }
 
