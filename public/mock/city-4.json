@@ -1,0 +1,114 @@
+{
+  "id": 4,
+  "name": "Сочи",
+  "current": {
+    "temperature": 25,
+    "humidity": 70,
+    "wind": 4,
+    "status": "sunny",
+    "serverTime": 1756198800000
+  },
+  "week": [
+    {
+      "day": "Понедельник",
+      "temperature": 25,
+      "status": "sunny"
+    },
+    {
+      "day": "Вторник",
+      "temperature": 26,
+      "status": "sunny"
+    },
+    {
+      "day": "Среда",
+      "temperature": 24,
+      "status": "cloudy"
+    },
+    {
+      "day": "Четверг",
+      "temperature": 23,
+      "status": "rainy"
+    },
+    {
+      "day": "Пятница",
+      "temperature": 27,
+      "status": "sunny"
+    },
+    {
+      "day": "Суббота",
+      "temperature": 28,
+      "status": "sunny"
+    },
+    {
+      "day": "Воскресенье",
+      "temperature": 22,
+      "status": "cloudy"
+    }
+  ],
+  "today": [
+    {
+      "time": "00:00",
+      "part": "ночь",
+      "temperature": 20,
+      "humidity": 80,
+      "wind": 3,
+      "status": "cloudy"
+    },
+    {
+      "time": "03:00",
+      "part": "ночь",
+      "temperature": 19,
+      "humidity": 82,
+      "wind": 3,
+      "status": "cloudy"
+    },
+    {
+      "time": "06:00",
+      "part": "утро",
+      "temperature": 21,
+      "humidity": 75,
+      "wind": 3,
+      "status": "sunny"
+    },
+    {
+      "time": "09:00",
+      "part": "утро",
+      "temperature": 23,
+      "humidity": 70,
+      "wind": 3,
+      "status": "sunny"
+    },
+    {
+      "time": "12:00",
+      "part": "день",
+      "temperature": 25,
+      "humidity": 65,
+      "wind": 4,
+      "status": "sunny"
+    },
+    {
+      "time": "15:00",
+      "part": "день",
+      "temperature": 26,
+      "humidity": 60,
+      "wind": 4,
+      "status": "sunny"
+    },
+    {
+      "time": "18:00",
+      "part": "вечер",
+      "temperature": 24,
+      "humidity": 70,
+      "wind": 4,
+      "status": "cloudy"
+    },
+    {
+      "time": "21:00",
+      "part": "вечер",
+      "temperature": 22,
+      "humidity": 75,
+      "wind": 3,
+      "status": "cloudy"
+    }
+  ]
+}

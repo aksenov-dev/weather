@@ -1,0 +1,114 @@
+{
+  "id": 5,
+  "name": "Красноярск",
+  "current": {
+    "temperature": 15,
+    "humidity": 68,
+    "wind": 5,
+    "status": "cloudy",
+    "serverTime": 1756198800000
+  },
+  "week": [
+    {
+      "day": "Понедельник",
+      "temperature": 15,
+      "status": "cloudy"
+    },
+    {
+      "day": "Вторник",
+      "temperature": 16,
+      "status": "sunny"
+    },
+    {
+      "day": "Среда",
+      "temperature": 14,
+      "status": "rainy"
+    },
+    {
+      "day": "Четверг",
+      "temperature": 13,
+      "status": "rainy"
+    },
+    {
+      "day": "Пятница",
+      "temperature": 17,
+      "status": "cloudy"
+    },
+    {
+      "day": "Суббота",
+      "temperature": 18,
+      "status": "sunny"
+    },
+    {
+      "day": "Воскресенье",
+      "temperature": 12,
+      "status": "windy"
+    }
+  ],
+  "today": [
+    {
+      "time": "00:00",
+      "part": "ночь",
+      "temperature": 10,
+      "humidity": 85,
+      "wind": 3,
+      "status": "cloudy"
+    },
+    {
+      "time": "03:00",
+      "part": "ночь",
+      "temperature": 9,
+      "humidity": 88,
+      "wind": 3,
+      "status": "cloudy"
+    },
+    {
+      "time": "06:00",
+      "part": "утро",
+      "temperature": 11,
+      "humidity": 82,
+      "wind": 4,
+      "status": "rainy"
+    },
+    {
+      "time": "09:00",
+      "part": "утро",
+      "temperature": 13,
+      "humidity": 75,
+      "wind": 4,
+      "status": "cloudy"
+    },
+    {
+      "time": "12:00",
+      "part": "день",
+      "temperature": 15,
+      "humidity": 68,
+      "wind": 5,
+      "status": "cloudy"
+    },
+    {
+      "time": "15:00",
+      "part": "день",
+      "temperature": 16,
+      "humidity": 65,
+      "wind": 5,
+      "status": "sunny"
+    },
+    {
+      "time": "18:00",
+      "part": "вечер",
+      "temperature": 14,
+      "humidity": 70,
+      "wind": 5,
+      "status": "cloudy"
+    },
+    {
+      "time": "21:00",
+      "part": "вечер",
+      "temperature": 12,
+      "humidity": 75,
+      "wind": 4,
+      "status": "cloudy"
+    }
+  ]
+}

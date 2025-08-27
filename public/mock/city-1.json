@@ -1,0 +1,114 @@
+{
+  "id": 1,
+  "name": "Москва",
+  "current": {
+    "temperature": 21,
+    "humidity": 55,
+    "wind": 3,
+    "status": "cloudy",
+    "serverTime": 1756198800000
+  },
+  "week": [
+    {
+      "day": "Понедельник",
+      "temperature": 21,
+      "status": "cloudy"
+    },
+    {
+      "day": "Вторник",
+      "temperature": 22,
+      "status": "sunny"
+    },
+    {
+      "day": "Среда",
+      "temperature": 20,
+      "status": "rainy"
+    },
+    {
+      "day": "Четверг",
+      "temperature": 19,
+      "status": "cloudy"
+    },
+    {
+      "day": "Пятница",
+      "temperature": 23,
+      "status": "sunny"
+    },
+    {
+      "day": "Суббота",
+      "temperature": 24,
+      "status": "sunny"
+    },
+    {
+      "day": "Воскресенье",
+      "temperature": 18,
+      "status": "windy"
+    }
+  ],
+  "today": [
+    {
+      "time": "00:00",
+      "part": "ночь",
+      "temperature": 16,
+      "humidity": 70,
+      "wind": 2,
+      "status": "cloudy"
+    },
+    {
+      "time": "03:00",
+      "part": "ночь",
+      "temperature": 15,
+      "humidity": 72,
+      "wind": 2,
+      "status": "cloudy"
+    },
+    {
+      "time": "06:00",
+      "part": "утро",
+      "temperature": 17,
+      "humidity": 68,
+      "wind": 3,
+      "status": "cloudy"
+    },
+    {
+      "time": "09:00",
+      "part": "утро",
+      "temperature": 19,
+      "humidity": 60,
+      "wind": 3,
+      "status": "sunny"
+    },
+    {
+      "time": "12:00",
+      "part": "день",
+      "temperature": 21,
+      "humidity": 55,
+      "wind": 3,
+      "status": "sunny"
+    },
+    {
+      "time": "15:00",
+      "part": "день",
+      "temperature": 22,
+      "humidity": 50,
+      "wind": 4,
+      "status": "sunny"
+    },
+    {
+      "time": "18:00",
+      "part": "вечер",
+      "temperature": 20,
+      "humidity": 58,
+      "wind": 4,
+      "status": "cloudy"
+    },
+    {
+      "time": "21:00",
+      "part": "вечер",
+      "temperature": 18,
+      "humidity": 65,
+      "wind": 3,
+      "status": "cloudy"
+    }
+  ]
+}

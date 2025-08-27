@@ -1,0 +1,114 @@
+{
+  "id": 2,
+  "name": "Краснодар",
+  "current": {
+    "temperature": 28,
+    "humidity": 40,
+    "wind": 2,
+    "status": "sunny",
+    "serverTime": 1756198800000
+  },
+  "week": [
+    {
+      "day": "Понедельник",
+      "temperature": 28,
+      "status": "sunny"
+    },
+    {
+      "day": "Вторник",
+      "temperature": 29,
+      "status": "sunny"
+    },
+    {
+      "day": "Среда",
+      "temperature": 27,
+      "status": "sunny"
+    },
+    {
+      "day": "Четверг",
+      "temperature": 26,
+      "status": "cloudy"
+    },
+    {
+      "day": "Пятница",
+      "temperature": 30,
+      "status": "sunny"
+    },
+    {
+      "day": "Суббота",
+      "temperature": 31,
+      "status": "sunny"
+    },
+    {
+      "day": "Воскресенье",
+      "temperature": 25,
+      "status": "rainy"
+    }
+  ],
+  "today": [
+    {
+      "time": "00:00",
+      "part": "ночь",
+      "temperature": 23,
+      "humidity": 60,
+      "wind": 2,
+      "status": "cloudy"
+    },
+    {
+      "time": "03:00",
+      "part": "ночь",
+      "temperature": 22,
+      "humidity": 62,
+      "wind": 2,
+      "status": "cloudy"
+    },
+    {
+      "time": "06:00",
+      "part": "утро",
+      "temperature": 24,
+      "humidity": 55,
+      "wind": 2,
+      "status": "sunny"
+    },
+    {
+      "time": "09:00",
+      "part": "утро",
+      "temperature": 26,
+      "humidity": 50,
+      "wind": 2,
+      "status": "sunny"
+    },
+    {
+      "time": "12:00",
+      "part": "день",
+      "temperature": 28,
+      "humidity": 45,
+      "wind": 3,
+      "status": "sunny"
+    },
+    {
+      "time": "15:00",
+      "part": "день",
+      "temperature": 29,
+      "humidity": 42,
+      "wind": 3,
+      "status": "sunny"
+    },
+    {
+      "time": "18:00",
+      "part": "вечер",
+      "temperature": 27,
+      "humidity": 50,
+      "wind": 3,
+      "status": "cloudy"
+    },
+    {
+      "time": "21:00",
+      "part": "вечер",
+      "temperature": 25,
+      "humidity": 55,
+      "wind": 2,
+      "status": "cloudy"
+    }
+  ]
+}
