@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useWeatherStore } from '@/stores/weather'
 import { WeatherStatusLabel } from '@/shared/types'
+import { assetUrl } from '@/utils'
 
 const weatherStore = useWeatherStore()
 
@@ -12,7 +13,7 @@ const weatherData = computed(() => {
   if (!status) return { icon: '', label: '' }
 
   return {
-    icon: `/icons/${status}.svg`,
+    icon: assetUrl(`icons/${status}.svg`),
     label: WeatherStatusLabel[status]
   }
 })
@@ -97,6 +98,7 @@ const weatherData = computed(() => {
 @media (max-width: 1280px) {
   .weather-now {
     margin-bottom: 36px;
+    min-width: auto;
   }
 }
 
@@ -118,12 +120,33 @@ const weatherData = computed(() => {
   }
 
   .weather-details-item dt, .weather-details-item dd {
-    display: inline;
-    text-align: left;
-    margin: 0;
     font-size: 18px;
-    font-weight: 500;
-    color: rgba(var(--color-white), 1);
+  }
+}
+
+@media (max-width: 640px) {
+  .weather-now {
+    margin-bottom: 30px;
+  }
+
+  .weather-now .icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+  }
+
+  .weather-now .temperature {
+    min-width: 100px;
+    font-size: 64px;
+    margin-right: 24px;
+  }
+
+  .weather-details-item {
+    margin-bottom: 6px;
+  }
+
+  .weather-details-item dt, .weather-details-item dd {
+    font-size: 16px;
   }
 }
 </style>

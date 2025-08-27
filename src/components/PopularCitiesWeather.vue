@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useWeatherStore } from '@/stores/weather'
 import { WeatherStatusLabel } from '@/shared/types'
+import { assetUrl } from '@/utils'
 
 const weatherStore = useWeatherStore()
 </script>
@@ -25,7 +26,7 @@ const weatherStore = useWeatherStore()
         </div>
 
         <img
-          :src="`/icons/${city.status}.svg`"
+          :src="assetUrl(`icons/${city.status}.svg`)"
           :alt="WeatherStatusLabel[city.status]"
         />
 
@@ -146,6 +147,12 @@ const weatherStore = useWeatherStore()
     font-size: 36px;
     font-weight: 600;
     line-height: 1.3;
+  }
+}
+
+@media (max-width: 640px) {
+  .popular-cities-weather h2 {
+    font-size: 24px;
   }
 }
 </style>

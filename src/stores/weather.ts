@@ -1,8 +1,10 @@
 import { computed, ref, watch } from 'vue'
+import { defineStore } from 'pinia'
+
 import type { City, CityWeather, PopularCityWeather, ViewMode } from '@/shared/types'
 
-import { defineStore } from 'pinia'
 import axios from 'axios'
+import { assetUrl } from '@/utils'
 
 export const useWeatherStore = defineStore('weather', () => {
   const viewMode = ref<ViewMode>('today')
@@ -30,7 +32,7 @@ export const useWeatherStore = defineStore('weather', () => {
 
   const getCities = async (): Promise<void> => {
     try {
-      const { data } = await axios.get<City[]>('/mock/cities.json')
+      const { data } = await axios.get<City[]>(assetUrl('mock/cities.json'))
       cities.value = data
 
       if (!selectedCity.value && cities.value.length > 0) {
@@ -47,7 +49,7 @@ export const useWeatherStore = defineStore('weather', () => {
 
   const getCityWeather = async (id: number): Promise<void> => {
     try {
-      const { data } = await axios.get<CityWeather>(`/mock/city-${id}.json`)
+      const { data } = await axios.get<CityWeather>(assetUrl(`mock/city-${id}.json`))
       selectedCityWeather.value = data
 
       document.title = `Погода в городе ${selectedCity.value?.name}`
@@ -58,7 +60,7 @@ export const useWeatherStore = defineStore('weather', () => {
 
   const getPopularCitiesWeather = async (): Promise<void> => {
     try {
-      const { data } = await axios.get<PopularCityWeather[]>('/mock/popular.json')
+      const { data } = await axios.get<PopularCityWeather[]>(assetUrl('mock/popular.json'))
       popularCitiesWeather.value = data
     } catch (err) {
       console.error('Ошибка загрузки погоды в популярных городах', err)

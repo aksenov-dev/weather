@@ -31,4 +31,10 @@ import WeatherNow from '@/components/WeatherNow.vue'
     margin-bottom: 36px;
   }
 }
+
+@media (max-width: 640px) {
+  .today-weather {
+    margin-bottom: 30px;
+  }
+}
 </style>

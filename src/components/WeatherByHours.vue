@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useWeatherStore } from '@/stores/weather'
 
-import { capitalize } from '@/utils'
+import { assetUrl, capitalize } from '@/utils'
 import { WeatherStatusLabel } from '@/shared/types'
 
 const weatherStore = useWeatherStore()
@@ -25,7 +25,11 @@ const todayWeather = computed(() => weatherStore.selectedCityWeather?.today)
       <div class="temperature">{{ item.temperature }}°</div>
 
       <div class="description">
-        <img :src="`/icons/${item.status}.svg`" :alt="WeatherStatusLabel[item.status]" />
+        <img
+          :src="assetUrl(`icons/${item.status}.svg`)"
+          :alt="WeatherStatusLabel[item.status]"
+        />
+
         <div class="desc">{{ WeatherStatusLabel[item.status] }}</div>
       </div>
 
@@ -34,6 +38,8 @@ const todayWeather = computed(() => weatherStore.selectedCityWeather?.today)
     </div>
   </div>
 </template>
+
+assetUrl(`icons/${status}.svg`)
 
 <style scoped>
 .weather-by-hours {
@@ -85,6 +91,7 @@ const todayWeather = computed(() => weatherStore.selectedCityWeather?.today)
 @media (max-width: 768px) {
   .weather-by-hours-row {
     font-size: 16px;
+    column-gap: 8px;
   }
 
   .time {
@@ -99,6 +106,20 @@ const todayWeather = computed(() => weatherStore.selectedCityWeather?.today)
     width: 40px;
     height: 40px;
     margin-right: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .weather-by-hours-row {
+    font-size: 14px;
+  }
+
+  .time {
+    row-gap: 5px;
+  }
+
+  .temperature {
+    font-size: 32px;
   }
 }
 </style>

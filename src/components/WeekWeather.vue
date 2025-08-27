@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { useWeatherStore } from '@/stores/weather'
 import { computed } from 'vue'
+import { useWeatherStore } from '@/stores/weather'
+
 import { WeatherStatusLabel } from '@/shared/types'
+import { assetUrl } from '@/utils'
 
 const weatherStore = useWeatherStore()
 
@@ -19,7 +21,7 @@ const weekWeather = computed(() => weatherStore.selectedCityWeather?.week)
         <p class="week-day">{{ item.day }}</p>
 
         <img
-          :src="`/icons/${item.status}.svg`"
+          :src="assetUrl(`icons/${item.status}.svg`)"
           :alt="WeatherStatusLabel[item.status]"
         />
 
@@ -35,7 +37,8 @@ const weekWeather = computed(() => weatherStore.selectedCityWeather?.week)
 }
 
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 126px);
   gap: 20px;
 }
 
@@ -43,7 +46,6 @@ const weekWeather = computed(() => weatherStore.selectedCityWeather?.week)
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 124px;
   row-gap: 8px;
 }
 
@@ -64,5 +66,11 @@ const weekWeather = computed(() => weatherStore.selectedCityWeather?.week)
 
 .card .temperature {
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(126px, 1fr));
+  }
 }
 </style>

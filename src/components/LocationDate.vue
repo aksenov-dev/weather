@@ -60,4 +60,18 @@ const isoDate = computed(() => {
     font-size: 24px;
   }
 }
+
+@media (max-width: 640px) {
+  .location-date {
+    margin-bottom: 30px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .date {
+    font-size: 20px;
+  }
+}
 </style>
