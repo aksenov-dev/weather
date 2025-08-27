@@ -1,0 +1,114 @@
+{
+  "id": 3,
+  "name": "Новосибирск",
+  "current": {
+    "temperature": 17,
+    "humidity": 65,
+    "wind": 5,
+    "status": "rainy",
+    "serverTime": 1756198800000
+  },
+  "week": [
+    {
+      "day": "Понедельник",
+      "temperature": 17,
+      "status": "rainy"
+    },
+    {
+      "day": "Вторник",
+      "temperature": 18,
+      "status": "cloudy"
+    },
+    {
+      "day": "Среда",
+      "temperature": 16,
+      "status": "rainy"
+    },
+    {
+      "day": "Четверг",
+      "temperature": 15,
+      "status": "cloudy"
+    },
+    {
+      "day": "Пятница",
+      "temperature": 19,
+      "status": "sunny"
+    },
+    {
+      "day": "Суббота",
+      "temperature": 20,
+      "status": "sunny"
+    },
+    {
+      "day": "Воскресенье",
+      "temperature": 14,
+      "status": "windy"
+    }
+  ],
+  "today": [
+    {
+      "time": "00:00",
+      "part": "ночь",
+      "temperature": 12,
+      "humidity": 80,
+      "wind": 3,
+      "status": "rainy"
+    },
+    {
+      "time": "03:00",
+      "part": "ночь",
+      "temperature": 11,
+      "humidity": 82,
+      "wind": 3,
+      "status": "rainy"
+    },
+    {
+      "time": "06:00",
+      "part": "утро",
+      "temperature": 13,
+      "humidity": 78,
+      "wind": 4,
+      "status": "cloudy"
+    },
+    {
+      "time": "09:00",
+      "part": "утро",
+      "temperature": 15,
+      "humidity": 70,
+      "wind": 4,
+      "status": "cloudy"
+    },
+    {
+      "time": "12:00",
+      "part": "день",
+      "temperature": 17,
+      "humidity": 65,
+      "wind": 5,
+      "status": "rainy"
+    },
+    {
+      "time": "15:00",
+      "part": "день",
+      "temperature": 18,
+      "humidity": 60,
+      "wind": 5,
+      "status": "rainy"
+    },
+    {
+      "time": "18:00",
+      "part": "вечер",
+      "temperature": 16,
+      "humidity": 70,
+      "wind": 5,
+      "status": "cloudy"
+    },
+    {
+      "time": "21:00",
+      "part": "вечер",
+      "temperature": 14,
+      "humidity": 75,
+      "wind": 4,
+      "status": "cloudy"
+    }
+  ]
+}

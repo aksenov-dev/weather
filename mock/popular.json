@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Москва",
+    "temperature": 21,
+    "humidity": 55,
+    "status": "cloudy"
+  },
+  {
+    "id": 2,
+    "name": "Краснодар",
+    "temperature": 28,
+    "humidity": 40,
+    "status": "sunny"
+  },
+  {
+    "id": 3,
+    "name": "Новосибирск",
+    "temperature": 17,
+    "humidity": 65,
+    "status": "rainy"
+  },
+  {
+    "id": 4,
+    "name": "Сочи",
+    "temperature": 25,
+    "humidity": 70,
+    "status": "sunny"
+  },
+  {
+    "id": 6,
+    "name": "Мурманск",
+    "temperature": 12,
+    "humidity": 80,
+    "status": "windy"
+  }
+]

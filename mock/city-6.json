@@ -1,0 +1,114 @@
+{
+  "id": 6,
+  "name": "Мурманск",
+  "current": {
+    "temperature": 12,
+    "humidity": 80,
+    "wind": 6,
+    "status": "windy",
+    "serverTime": 1756198800000
+  },
+  "week": [
+    {
+      "day": "Понедельник",
+      "temperature": 12,
+      "status": "windy"
+    },
+    {
+      "day": "Вторник",
+      "temperature": 13,
+      "status": "cloudy"
+    },
+    {
+      "day": "Среда",
+      "temperature": 11,
+      "status": "rainy"
+    },
+    {
+      "day": "Четверг",
+      "temperature": 10,
+      "status": "cloudy"
+    },
+    {
+      "day": "Пятница",
+      "temperature": 14,
+      "status": "sunny"
+    },
+    {
+      "day": "Суббота",
+      "temperature": 15,
+      "status": "sunny"
+    },
+    {
+      "day": "Воскресенье",
+      "temperature": 9,
+      "status": "windy"
+    }
+  ],
+  "today": [
+    {
+      "time": "00:00",
+      "part": "ночь",
+      "temperature": 7,
+      "humidity": 90,
+      "wind": 5,
+      "status": "cloudy"
+    },
+    {
+      "time": "03:00",
+      "part": "ночь",
+      "temperature": 6,
+      "humidity": 92,
+      "wind": 5,
+      "status": "rainy"
+    },
+    {
+      "time": "06:00",
+      "part": "утро",
+      "temperature": 8,
+      "humidity": 88,
+      "wind": 6,
+      "status": "cloudy"
+    },
+    {
+      "time": "09:00",
+      "part": "утро",
+      "temperature": 10,
+      "humidity": 82,
+      "wind": 6,
+      "status": "cloudy"
+    },
+    {
+      "time": "12:00",
+      "part": "день",
+      "temperature": 12,
+      "humidity": 80,
+      "wind": 6,
+      "status": "windy"
+    },
+    {
+      "time": "15:00",
+      "part": "день",
+      "temperature": 13,
+      "humidity": 78,
+      "wind": 6,
+      "status": "sunny"
+    },
+    {
+      "time": "18:00",
+      "part": "вечер",
+      "temperature": 11,
+      "humidity": 85,
+      "wind": 6,
+      "status": "cloudy"
+    },
+    {
+      "time": "21:00",
+      "part": "вечер",
+      "temperature": 9,
+      "humidity": 88,
+      "wind": 5,
+      "status": "cloudy"
+    }
+  ]
+}
